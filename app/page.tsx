@@ -1,3 +1,4 @@
+"use client"
 import { Bento } from "@/components/Bento";
 import CTA from "@/components/cta";
 import { FAQ } from "@/components/FAQs";

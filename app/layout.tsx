@@ -9,8 +9,8 @@ import { PopupList } from "@/components/PopupList";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "simple",
-  description: "Open Source Next.js Boilerplate",
+  title: "title",
+  description: "description",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
           <StackTheme>
             <ThemeProvider
               attribute="class"
-              defaultTheme="system"
+              defaultTheme="light"
               enableSystem
               disableTransitionOnChange
             >

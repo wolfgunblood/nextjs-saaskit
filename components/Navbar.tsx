@@ -6,10 +6,11 @@ import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import { MobileNav } from "@/components/MobileNav";
 import { ModeToggle } from "./mode-toggle";
+import { useStackApp } from "@stackframe/stack";
 
 const Navbar = () => {
-  // Replace with your auth of choice, e.g. Clerk: const { userId } = auth();
-  const isUserSignedIn = false;
+  const app = useStackApp();
+  const user = app.useUser();
 
   return (
     <nav
@@ -31,10 +32,10 @@ const Navbar = () => {
               quality={100}
               className="w-7 h-7"
             />
-            <span className="text-2xl font-semibold">simple</span>
+            <span className="text-2xl font-semibold">your title</span>
           </Link>
           <div className="flex gap-1 sm:gap-4 items-center">
-            {!isUserSignedIn ? (
+            {!user? (
               <MobileNav />
             ) : (
               <Link
@@ -49,7 +50,7 @@ const Navbar = () => {
             )}
 
             <div className="hidden items-center space-x-4 sm:flex">
-              {!isUserSignedIn ? (
+              {!user ? (
                 <>
                   <Link
                     href="/pricing"
@@ -94,7 +95,7 @@ const Navbar = () => {
             <ModeToggle />
 
             {/* User profile mockup below, e.g using Clerk: <UserButton afterSignOutUrl="/" /> */}
-            {isUserSignedIn && (
+            {user && (
               <div className="bg-emerald-600 border-2 border-black shadow-lg rounded-full w-10 h-10"></div>
             )}
           </div>
