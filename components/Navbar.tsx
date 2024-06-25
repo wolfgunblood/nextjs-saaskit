@@ -7,6 +7,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { MobileNav } from "@/components/MobileNav";
 import { ModeToggle } from "./mode-toggle";
 import { useStackApp } from "@stackframe/stack";
+import { UserAccountNav } from "./useAccountNav";
 
 const Navbar = () => {
   const app = useStackApp();
@@ -66,7 +67,7 @@ const Navbar = () => {
                       variant: "ghost",
                       size: "sm",
                     })}
-                    href="/sign-in"
+                    href="/handler/signin"
                   >
                     Sign in
                   </Link>
@@ -74,7 +75,7 @@ const Navbar = () => {
                     className={buttonVariants({
                       size: "sm",
                     })}
-                    href="/sign-up"
+                    href="/handler/signup"
                   >
                     Sign Up
                   </Link>
@@ -96,7 +97,7 @@ const Navbar = () => {
 
             {/* User profile mockup below, e.g using Clerk: <UserButton afterSignOutUrl="/" /> */}
             {user && (
-              <div className="bg-emerald-600 border-2 border-black shadow-lg rounded-full w-10 h-10"></div>
+              <UserAccountNav />
             )}
           </div>
         </div>
