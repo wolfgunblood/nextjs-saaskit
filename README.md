@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + Stack Auth Starter Template
 
-## Getting Started
+## Motivation
 
-First, run the development server:
+Implementing authentication in Next.js, especially Email+Password authentication and Oauth, can be challenging. 
+No more hassle with user management. Stack is the most developer-friendly way to manage your users, and it's 100% open-source.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Stack Auth
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open-source User Auth & Management
+- Integrate in minutes with no bullshit. For front- and backend.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Stack Authentication:** 💼 Support for Credential and OAuth(google,github) authentication.
+- **Authorization:** 🔒 Easily manage public and protected routes within the `app directory`.
+- **Email Verification:** 📧 Verify user identities through email.
+- **Password Reset:** 🔑 Streamline password resets by sending email password reset links.
+- **Lemonsqueezy Payment:** 💳 Setup user subscriptions seamlessly with stripe.
+- **MongoDB Database:** 🛢️ Utilize a MongoDB database set up.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org)
+- [Stack Auth](https://stack-auth.com/)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [React Hook Form](https://www.react-hook-form.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Get Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone this repository to your local machine.
+2. Copy `.env.loc` to `.env.local` and fill in the Stack Auth credential.
+3. Copy `.env.example` to `.env` and fill in the required environment variables.
+4. Run `pnpm install` to install dependencies.
+8. Execute `pnpm dev` to start the development server and enjoy!
 
-## Deploy on Vercel
+## Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [x] Lemonsqueezy Integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contributing
+
+To contribute, fork the repository and create a feature branch. Test your changes, and if possible, open an issue for discussion before submitting a pull request. Follow project guidelines, and welcome feedback to ensure a smooth integration of your contributions. Your pull requests are warmly welcome.
