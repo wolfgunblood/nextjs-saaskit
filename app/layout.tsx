@@ -29,7 +29,7 @@ export default function RootLayout({
           <StackTheme>
             <ThemeProvider
               attribute="class"
-              defaultTheme="light"
+              defaultTheme="system"
               enableSystem
               disableTransitionOnChange
             >
