@@ -22,11 +22,15 @@ export function UserAccountNav() {
   const app = useStackApp();
   const user = app.useUser();
 
+  // Define a default image URL
+  const defaultImageUrl = "https://avatars.dicebear.com/api/avataaars/avatar1.svg"; // Update this path to your default image
+
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
       <img
-          src={user?.profileImageUrl}
+          src={user?.profileImageUrl || defaultImageUrl}
           alt="User Avatar"
           style={{
             width: "40px",
