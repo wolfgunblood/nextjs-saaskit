@@ -9,7 +9,7 @@ import { PopupList } from "@/components/PopupList";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "title",
+  title: "Acme Inc.",
   description: "description",
 };
 
