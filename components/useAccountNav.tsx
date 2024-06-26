@@ -25,12 +25,10 @@ export function UserAccountNav() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        {/* <Button variant="outline"> */}
         <Avatar>
           <AvatarImage src={user?.profileImageUrl} />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
-        {/* </Button> */}
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
