@@ -33,7 +33,7 @@ const Navbar = () => {
               quality={100}
               className="w-7 h-7"
             />
-            <span className="text-2xl font-semibold">your title</span>
+            <span className="text-2xl font-semibold">your saas</span>
           </Link>
           <div className="flex gap-1 sm:gap-4 items-center">
             {!user? (

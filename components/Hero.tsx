@@ -13,11 +13,13 @@ const Hero = () => {
       <AnimatedShiny />
 
       <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-        Open Source Next.js Boilerplate
+        Next.js + Stack Auth Starter Kit
       </h1>
 
       <p className="mt-5 max-w-prose text-lg sm:text-2xl">
-        Add subtitle
+        A Next.js Authentication starter template (password reset, email
+        validation and oAuth). Includes Stack, MongoDB, Lemon Squeezy,
+        tailwindcss and shadcn-ui
       </p>
 
       <Link
