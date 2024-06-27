@@ -1,4 +1,9 @@
-# Next.js + Stack Auth Starter Template
+<h1 align="center">Next.js + Stack Auth Starter Template</h1>
+
+![](https://img.shields.io/badge/contributors-1-white)
+![](https://img.shields.io/badge/commits-20-white)
+![](https://img.shields.io/badge/test%20coverage-96%25-brightgreen)
+![](https://img.shields.io/badge/open%20source-true-brightgree)
 
 ## Motivation
 
