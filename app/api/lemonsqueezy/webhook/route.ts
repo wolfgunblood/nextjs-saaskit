@@ -1,7 +1,10 @@
-import crypto from "crypto";
 
 export async function POST(req : Request) {
   try {
+    const crypto = typeof window === 'undefined' ? require('crypto') : null;
+    if (!crypto) {
+      throw new Error("crypto is required");
+    }
     // Catch the event type
     const clonedReq = req.clone();
     const eventType = req.headers.get("X-Event-Name");
@@ -11,7 +14,7 @@ export async function POST(req : Request) {
     const secret = process.env.LEMON_SQUEEZY_WEBHOOK_SIGNATURE;
     if (!secret) {
         throw new Error("Webhook signature secret is not defined.");
-      }
+    }
     const hmac = crypto.createHmac("sha256", secret);
     const digest = Buffer.from(
       hmac.update(await clonedReq.text()).digest("hex"),
