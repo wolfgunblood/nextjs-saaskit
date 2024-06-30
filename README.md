@@ -20,7 +20,7 @@ A done for you starter kit
 - **Password Reset:** 🔑 Streamline password resets by sending email password reset links.
 - **Lemonsqueezy Payment:** 💳 Setup user subscriptions seamlessly with stripe.
 - **Turso Database:** 🛢️ Utilize a turso database set up.
-- **Drizzle Database:** 🛢️ Utilize a Drizzle ORM.
+- **Drizzle ORM:** 🛢️ Utilize a Drizzle ORM.
 
 ## Tech Stack
 
