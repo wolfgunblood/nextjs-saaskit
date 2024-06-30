@@ -8,7 +8,8 @@
 ## Motivation
 
 Implementing authentication in Next.js, especially Email+Password authentication and Oauth, can be challenging. 
-No more hassle with user management. Stack is the most developer-friendly way to manage your users, and it's 100% open-source.
+No more hassle with user management. No more hassle for payment integrations.No more building a landing page from scratch
+A done for you started kit
 
 
 ## Key Features
@@ -23,6 +24,7 @@ No more hassle with user management. Stack is the most developer-friendly way to
 ## Tech Stack
 
 - [Next.js](https://nextjs.org)
+- [Clerk Auth](https://clerk.com/)
 - [Stack Auth](https://stack-auth.com/)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Shadcn UI](https://ui.shadcn.com/)
