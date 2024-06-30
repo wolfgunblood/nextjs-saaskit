@@ -1,4 +1,4 @@
-<h1 align="center">Next.js SaaS kit</h1>
+<h1 align="center">Open Source Next.js SaaS kit</h1>
 <!-- 
 ![](https://img.shields.io/badge/contributors-1-white)
 ![](https://img.shields.io/badge/commits-20-white)
@@ -18,7 +18,7 @@ A done for you starter kit
 - **Authorization:** 🔒 Easily manage public and protected routes within the `app directory`.
 - **Email Verification:** 📧 Verify user identities through email.
 - **Password Reset:** 🔑 Streamline password resets by sending email password reset links.
-- **Lemonsqueezy Payment:** 💳 Setup user subscriptions seamlessly with stripe.
+- **Lemonsqueezy Payment:** 💳 Setup user subscriptions seamlessly with lemonsqueezy.
 - **Turso Database:** 🛢️ Utilize a turso database set up.
 - **Drizzle ORM:** 🛢️ Utilize a Drizzle ORM.
 
