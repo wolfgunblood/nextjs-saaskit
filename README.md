@@ -1,4 +1,4 @@
-<h1 align="center">Next.js + Stack Auth Starter Template</h1>
+<h1 align="center">Next.js SaaS kit</h1>
 <!-- 
 ![](https://img.shields.io/badge/contributors-1-white)
 ![](https://img.shields.io/badge/commits-20-white)
