@@ -42,7 +42,9 @@ A done for you started kit
 
 ## Roadmap
 
-- [ ] Lemonsqueezy Integration
+- [ ] Stripe Integration
+- [ ] Resend Integration
+- [ ] Prisma Integration
 
 
 ## Contributing
