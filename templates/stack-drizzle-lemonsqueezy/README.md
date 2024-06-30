@@ -10,6 +10,15 @@
 Implementing authentication in Next.js, especially Email+Password authentication and Oauth, can be challenging. 
 No more hassle with user management. Stack is the most developer-friendly way to manage your users, and it's 100% open-source.
 
+### Screenshot
+
+![screenshot](./screenshot.png)
+
+
+## Stack Auth
+
+- Open-source User Auth & Management
+- Integrate in minutes with no bullshit. For front- and backend.
 
 ## Key Features
 
