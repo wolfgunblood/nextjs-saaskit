@@ -8,8 +8,8 @@
 ## Motivation
 
 Implementing authentication in Next.js, especially Email+Password authentication and Oauth, can be challenging. 
-No more hassle with user management. No more hassle for payment integrations.No more building a landing page from scratch
-A done for you started kit
+No more hassle with user management. No more hassle for payment integrations.No more building a landing page from scratch.
+A done for you starter kit
 
 
 ## Key Features
@@ -19,7 +19,8 @@ A done for you started kit
 - **Email Verification:** 📧 Verify user identities through email.
 - **Password Reset:** 🔑 Streamline password resets by sending email password reset links.
 - **Lemonsqueezy Payment:** 💳 Setup user subscriptions seamlessly with stripe.
-- **MongoDB Database:** 🛢️ Utilize a MongoDB database set up.
+- **Turso Database:** 🛢️ Utilize a turso database set up.
+- **Drizzle Database:** 🛢️ Utilize a Drizzle ORM.
 
 ## Tech Stack
 
