@@ -47,7 +47,7 @@ No more hassle with user management. Stack is the most developer-friendly way to
 
 ## Roadmap
 
-- [] Lemonsqueezy Integration
+- [ ] Lemonsqueezy Integration
 
 
 ## Contributing
