@@ -30,11 +30,13 @@ No more hassle with user management. Stack is the most developer-friendly way to
 
 ## Get Started
 
-1. Clone this repository to your local machine.
-2. Copy `.env.loc` to `.env.local` and fill in the Stack Auth credential.
-3. Copy `.env.example` to `.env` and fill in the required environment variables.
-4. Run `pnpm install` to install dependencies.
-8. Execute `pnpm dev` to start the development server and enjoy!
+1. `npx nextjs-saaskit`
+2. `cd projectName`
+3. Copy `.env.loc` to `.env.local`
+4. Copy `.env.example` to `.env`
+5. Update env variables
+6. Run `pnpm install` to install dependencies.
+7. Execute `npm dev` to start the development server and enjoy!
 
 ## Roadmap
 
