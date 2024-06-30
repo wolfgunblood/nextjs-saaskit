@@ -70,7 +70,9 @@ async function main() {
     console.log(chalk.green('Done. Now run:\n'));
     console.log(chalk.yellow(`  cd ${projectName}`));
     console.log(chalk.yellow('  pnpm install'));
-    console.log(chalk.yellow('Copy and Update env variables'));
+    console.log(chalk.yellow('Copy .env.loc to .env.local.'));
+    console.log(chalk.yellow('Copy .env.example to .env'));
+    console.log(chalk.yellow('Update env variables'));
     console.log(chalk.yellow('  npm run dev'));
   } catch (error) {
     console.error(chalk.red('Error occurred during project scaffolding:'), error);
