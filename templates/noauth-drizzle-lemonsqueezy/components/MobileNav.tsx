@@ -15,7 +15,7 @@ export const MobileNav = () => {
         <Menu />
       </SheetTrigger>
 
-      <SheetContent side="right" className="p-0  pt-5 w-32">
+      <SheetContent side="right" className="p-0 pt-5 w-32">
         <SheetClose />
         <SideNav />
       </SheetContent>

@@ -9,14 +9,7 @@ export const SideNav = () => {
       href: "/pricing",
       label: "Pricing",
     },
-    {
-      href: "/sign-in",
-      label: "Sign In",
-    },
-    {
-      href: "/sign-up",
-      label: "Sign Up",
-    },
+ 
   ];
 
   const onNavigate = (url: string) => {

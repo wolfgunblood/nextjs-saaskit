@@ -13,7 +13,8 @@ const CURR_DIR = process.cwd();
 
 const authChoices = [
   { name: 'Clerk', value: 'clerk' },
-  { name: 'Stack', value: 'stack' }
+  { name: 'Stack', value: 'stack' },
+  { name: 'No Auth', value: 'noauth' }
 ];
 
 const ormChoices = [
