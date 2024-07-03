@@ -33,7 +33,7 @@ A done for you starter kit
 
 ## Get Started
 
-1. `npx nextjs-saaskit`
+1. `npx nextjs-saaskit@latest`
 2. `cd projectName`
 3. Copy `.env.loc` to `.env.local`
 4. Copy `.env.example` to `.env`
