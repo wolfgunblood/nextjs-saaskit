@@ -11,6 +11,7 @@ import Testimonial from "@/components/Marquee";
 import Navbar from "@/components/Navbar";
 import { Press } from "@/components/Press";
 import { Pricing } from "@/components/Pricing";
+import TestimonialSecond from "@/components/Testimonial";
 import Image from "next/image";
 
 export default function Home() {
@@ -23,7 +24,8 @@ export default function Home() {
       {/* <Features /> */}
       <Pricing />
       <FAQ />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <TestimonialSecond />
       <CTA />
       <Footer />
       </>
