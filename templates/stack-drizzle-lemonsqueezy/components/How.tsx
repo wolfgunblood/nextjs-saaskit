@@ -1,5 +1,35 @@
+import Link from 'next/link';
 
-import Link from "next/link";
+const features = [
+  {
+    id: 1,
+    Icon: ScaleIcon,
+    title: "Scalable Infrastructure",
+    description: "Our platform is designed to scale seamlessly as your business grows, ensuring optimal performance.",
+    linkHref: "#"
+  },
+  {
+    id: 2,
+    Icon: ShieldIcon,
+    title: "Secure by Design",
+    description: "Our platform is built with security in mind, ensuring your data is protected at all times.",
+    linkHref: "#"
+  },
+  {
+    id: 3,
+    Icon: BriefcaseIcon,
+    title: "Streamlined Workflow",
+    description: "Our platform integrates seamlessly with your existing tools, streamlining your workflow.",
+    linkHref: "#"
+  },
+  {
+    id: 4,
+    Icon: RocketIcon,
+    title: "Fast Deployment",
+    description: "Get your application up and running in no time with our streamlined deployment process.",
+    linkHref: "#"
+  }
+];
 
 export default function HowComponent() {
   return (
@@ -11,85 +41,35 @@ export default function HowComponent() {
               How It Works
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Discover the key features and benefits that make our product the
-              best choice for your needs.
+              Discover the key features and benefits that make our product the best choice for your needs.
             </p>
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-12">
-          <div className="flex flex-col items-center justify-center space-y-4">
-            <RocketIcon className="h-12 w-12 text-primary" />
-            <div className="space-y-2 text-center">
-              <h3 className="text-xl font-bold">Fast Deployment</h3>
-              <p className="text-muted-foreground">
-                Get your application up and running in no time with our
-                streamlined deployment process.
-              </p>
+          {features.map(({ id, Icon, title, description, linkHref }) => (
+            <div key={id} className="flex flex-col items-center justify-between space-y-4">
+              <Icon className="h-12 w-12 text-primary" />
+              <div className="space-y-2 text-center">
+                <h3 className="text-xl font-bold">{title}</h3>
+                <p className="text-muted-foreground">
+                  {description}
+                </p>
+              </div>
+              <Link
+                href={linkHref}
+                className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                prefetch={false}
+              >
+                Learn More
+              </Link>
             </div>
-            <Link
-              href="#"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
-            >
-              Learn More
-            </Link>
-          </div>
-          <div className="flex flex-col items-center justify-center space-y-4">
-            <ScaleIcon className="h-12 w-12 text-primary" />
-            <div className="space-y-2 text-center">
-              <h3 className="text-xl font-bold">Scalable Infrastructure</h3>
-              <p className="text-muted-foreground">
-                Our platform is designed to scale seamlessly as your business
-                grows, ensuring optimal performance.
-              </p>
-            </div>
-            <Link
-              href="#"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
-            >
-              Learn More
-            </Link>
-          </div>
-          <div className="flex flex-col items-center justify-center space-y-4">
-            <ShieldIcon className="h-12 w-12 text-primary" />
-            <div className="space-y-2 text-center">
-              <h3 className="text-xl font-bold">Secure by Design</h3>
-              <p className="text-muted-foreground">
-                Our platform is built with security in mind, ensuring your data
-                is protected at all times.
-              </p>
-            </div>
-            <Link
-              href="#"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
-            >
-              Learn More
-            </Link>
-          </div>
-          <div className="flex flex-col items-center justify-center space-y-4">
-            <BriefcaseIcon className="h-12 w-12 text-primary" />
-            <div className="space-y-2 text-center">
-              <h3 className="text-xl font-bold">Streamlined Workflow</h3>
-              <p className="text-muted-foreground">
-                Our platform integrates seamlessly with your existing tools,
-                streamlining your workflow.
-              </p>
-            </div>
-            <Link
-              href="#"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
-            >
-              Learn More
-            </Link>
-          </div>
+          ))}
         </div>
       </div>
     </section>
   );
 }
+
 
 function BriefcaseIcon(props: any) {
   return (
