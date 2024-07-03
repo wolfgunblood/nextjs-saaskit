@@ -70,7 +70,7 @@ async function main() {
     console.log(chalk.green('Scaffolding project in ') + chalk.blue(`${projectPath}...`));
     console.log(chalk.green('Done. Now run:\n'));
     console.log(chalk.yellow(`  cd ${projectName}`));
-    console.log(chalk.yellow('  npm install'));
+    console.log(chalk.yellow('  pnpm install'));
     console.log(chalk.yellow('  Copy .env.loc to .env.local.'));
     console.log(chalk.yellow('  Copy .env.example to .env'));
     console.log(chalk.yellow('  Update env variables'));

@@ -38,7 +38,7 @@ A done for you starter kit
 3. Copy `.env.loc` to `.env.local`
 4. Copy `.env.example` to `.env`
 5. Update env variables
-6. Run `npm install` to install dependencies.
+6. Run `pnpm install` to install dependencies.
 7. Execute `npm dev` to start the development server and enjoy!
 
 ## Roadmap

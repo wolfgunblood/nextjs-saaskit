@@ -1,6 +1,6 @@
 {
   "name": "nextjs-saaskit",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "A Nextjs SaaS kit",
   "main": "src/index.js",
   "type": "module",
