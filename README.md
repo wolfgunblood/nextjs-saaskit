@@ -14,7 +14,7 @@ A done for you starter kit
 
 ## Key Features
 
-- **Stack Authentication:** 💼 Support for Credential and OAuth(google,github) authentication.
+- **Authentication:** 💼 Support for Credential and OAuth(google,github) authentication.
 - **Authorization:** 🔒 Easily manage public and protected routes within the `app directory`.
 - **Email Verification:** 📧 Verify user identities through email.
 - **Password Reset:** 🔑 Streamline password resets by sending email password reset links.
