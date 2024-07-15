@@ -1,9 +1,20 @@
-<h1 align="center">Open Source Next.js SaaS kit</h1>
+<div align="center">
+
+<h1>Next.js SaaS kit</h1>
+<p>🔥 Open Source MVP Boilerplate</p>
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfgunblood/nextjs-saaskit)](https://github.com/wolfgunblood/nextjs-saaskit)
+
+</div>
+<br />
 <!-- 
 ![](https://img.shields.io/badge/contributors-1-white)
 ![](https://img.shields.io/badge/commits-20-white)
 ![](https://img.shields.io/badge/test%20coverage-96%25-brightgreen)
 ![](https://img.shields.io/badge/open%20source-true-brightgree) -->
+
+<img width="1359" alt="image" src="https://utfs.io/f/6065a913-376e-43a3-a59d-519c358e737f-8pkbvt.png">
+
 
 ## Motivation
 
