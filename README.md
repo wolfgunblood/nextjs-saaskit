@@ -7,9 +7,12 @@
 
 ## Motivation
 
-Implementing authentication in Next.js, especially Email+Password authentication and Oauth, can be challenging. 
-No more hassle with user management. No more hassle for payment integrations.No more building a landing page from scratch.
-A done for you starter kit
+Implementing authentication in Next.js, especially Email+Password authentication, Oauth, payments, and database integration can be challenging.
+
+No more hassle with user management. No more hassle for payment integrations. No more building a landing page from scratch. 
+
+A done-for-you starter kit 
+
 
 
 ## Key Features
