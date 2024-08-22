@@ -36,7 +36,6 @@ A done-for-you starter kit
 ## Tech Stack
 
 - [Next.js](https://nextjs.org)
-- [Clerk Auth](https://clerk.com/)
 - [Stack Auth](https://stack-auth.com/)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Shadcn UI](https://ui.shadcn.com/)
