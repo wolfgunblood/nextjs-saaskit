@@ -15,16 +15,13 @@
 
 <img width="1359" alt="image" src="https://utfs.io/f/6065a913-376e-43a3-a59d-519c358e737f-8pkbvt.png">
 
-
 ## Motivation
 
 Implementing authentication in Next.js, especially Email+Password authentication, Oauth, payments, and database integration can be challenging.
 
-No more hassle with user management. No more hassle for payment integrations. No more building a landing page from scratch. 
+No more hassle with user management. No more hassle for payment integrations. No more building a landing page from scratch.
 
-A done-for-you starter kit 
-
-
+A done-for-you starter kit
 
 ## Key Features
 
@@ -47,7 +44,7 @@ A done-for-you starter kit
 
 ## Get Started
 
-1. `npx nextjs-saaskit@latest`
+1. `git clone `
 2. `cd projectName`
 3. Copy `.env.loc` to `.env.local`
 4. Copy `.env.example` to `.env`
@@ -60,7 +57,6 @@ A done-for-you starter kit
 - [ ] Stripe Integration
 - [ ] Resend Integration
 - [ ] Prisma Integration
-
 
 ## Contributing
 

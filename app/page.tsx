@@ -12,7 +12,6 @@ import Navbar from "@/components/Navbar";
 import { Press } from "@/components/Press";
 import { Pricing } from "@/components/Pricing";
 import Image from "next/image";
-import TestimonialSecond from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -24,8 +23,7 @@ export default function Home() {
       {/* <Features /> */}
       <Pricing />
       <FAQ />
-      {/* <Testimonial /> */}
-      <TestimonialSecond />
+      <Testimonial />
       <CTA />
       <Footer />
       </>
