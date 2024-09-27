@@ -61,7 +61,7 @@ A done-for-you starter kit
 
 To contribute, fork the repository and create a feature branch. Test your changes, and if possible, open an issue for discussion before submitting a pull request. Follow project guidelines, and welcome feedback to ensure a smooth integration of your contributions. Your pull requests are warmly welcome.
 
-### AI Powered No Code SAAS/web app builder(New)
+### New
 
 [NextWrapper](https://nextwrapper.com/) - An AI-powered No-Code tool to build your SaaS.
 
